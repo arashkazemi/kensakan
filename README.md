@@ -4,6 +4,13 @@
 
 ---
 
+DEPRECATED: This project is renamed to Tati. Please install using the name Tati
+for a much better implementation and many more features.
+
+[https://github.com/arashkazemi/tati](https://github.com/arashkazemi/tati)
+
+---
+
 Kensakan is a javascript library that makes it possible to debug, step,
 pause and watch local variables in javascript code without using browser's
 internal inspector. It works by restructuring and running the given code 

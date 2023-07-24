@@ -76,8 +76,7 @@ class Kensakan {
   constructor(  step_callback=null, 
                 stop_callback=null, 
                 error_callback=null, 
-                step_loop_args=true,
-                use_worker=false ) 
+                step_loop_args=true ) 
   {
 
     /**
@@ -150,10 +149,6 @@ class Kensakan {
     this.__escodegen__ = escodegen;
 
     this.worker = null;
-        
-    if(use_worker) {
-      this.worker = new Worker
-    }
   }
 
   
